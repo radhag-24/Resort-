@@ -1,0 +1,135 @@
+body,
+html {
+  height: 100%;
+
+}
+
+body {
+  font-family: "Amatic SC", sans-serif;
+}
+
+.image1 {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+a:hover {
+  background-color: gray;
+  color: black;
+}
+
+a {
+  color: white;
+}
+
+.centered1 span {
+  position: absolute;
+  font-style: italic;
+  color: orchid;
+  font-size: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered1 button {
+  height: 40px;
+  width: 300px;
+  padding: 0 15px;
+  border-radius: 50px;
+  background-color: transparent;
+}
+
+.centered1 button:hover {
+  background-color: aquamarine;
+}
+
+.about {
+  background-color: lightcyan;
+}
+
+.about h1,
+h2 {
+  text-align: center;
+}
+
+.about p {
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
+}
+
+.about button {
+  border-radius: 50px;
+}
+
+.about img {
+  padding-left: 200px;
+}
+
+.image {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.centered p {
+  position: absolute;
+  font-style: italic;
+  font-size: xx-large;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact1 {
+  background-color: lightcyan;
+}
+
+.contact1 h1,
+p {
+  text-align: center;
+}
+
+.F p {
+  text-align: center;
+  border-width: 150px;
+}
+
+.F input {
+  height: 60px;
+  width: 50%;
+  padding: 0 15px;
+  font-size: 17px;
+  margin-bottom: 1.3rem;
+  border: 1px solid black;
+  outline: none;
+}
+
+.F button {
+  height: 40px;
+  padding: 0 15px;
+  border-radius: 50px;
+}
+
+button:hover {
+  background-color: lightgrey;
+}
+
+.foot {
+  background-color: black;
+  height: 100px;
+}
+
+.foot p {
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
